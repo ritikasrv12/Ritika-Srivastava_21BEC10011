@@ -3,10 +3,9 @@ Turn-based Chess-like Game with WebSocket Communication
 Develop a turn-based chess-like game featuring a server-client architecture, utilizing WebSockets for real-time communication and a web-based user interface.
 
 # Game Rules
- Game Setup
-     1. The game is played between two players on a 5x5 grid.
-     2. Each player controls a team of 5 characters: Pawns, Hero1, and Hero2.
-     3. Players arrange their characters on their respective starting rows at the beginning of the game.
+1. The game is played between two players on a 5x5 grid.
+2. Each player controls a team of 5 characters: Pawns, Hero1, and Hero2.
+3. Players arrange their characters on their respective starting rows at the beginning of the game.
 # Characters and Movement
 1. Pawn:
    • Moves one block in any direction (Left, Right, Forward, or Backward).
