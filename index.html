@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wordly Chess</title>
+    <title>ChessMastery: Elevate Your Game</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -12,42 +12,42 @@
 
 <body>
 
-    <h1><i class="fas fa-chess-queen"></i> Wordly Chess</h1>
+    <h1><i class="fas fa-chess-queen"></i>ChessMastery: Elevate Your Game</h1>
 
     <div id="currentPlayer">
-        <i class="fas fa-user icon"></i> Current Player: <span id="playerTurn">A</span>
+        <i class="fas fa-user-circle icon"></i> Active Player: <span id="playerTurn">A</span>
     </div>
 
     <div id="board">
         <!-- Chessboard cells will be dynamically created here -->
         <div class="cell"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
         <div class="cell"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
         <div class="cell"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
         <div class="cell"></div>
-        <div class="cell brown"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
+        <div class="cell black"></div>
         <div class="cell"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
         <div class="cell"></div>
         <div class="cell"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
         <div class="cell"></div>
-        <div class="cell brown"></div>
+        <div class="cell black"></div>
         <!-- Repeat as necessary for your board size -->
     </div>
 
     <div id="controls">
         <input type="text" id="moveInput" placeholder="Input move (e.g., P1:L)">
         <button onclick="sendMove()">
-            <i class="fas fa-paper-plane"></i> Submit Move
+            <i class="fas fa-paper-plane"></i> Play Move
         </button>
     </div>
 
     <div id="gameLog">
-        <i class="fas fa-scroll"></i> MOVE HISTORY
+        <i class="fas fa-scroll"></i> Game Record
         <!-- Log entries will be dynamically added here -->
     </div>
 
